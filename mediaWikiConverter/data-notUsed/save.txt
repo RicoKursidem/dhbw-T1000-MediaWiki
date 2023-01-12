@@ -1,0 +1,87 @@
+[[File:Pandasleeping.jpg|300px|thumb|right|A little red panda sleeping in a tree.]]
+[[Datei:Sh.jpg|300px|thumb|left|SoftHeart Bild]]
+= ACAS System =
+== Login ==
+azoservice:azoservice06291
+
+== English Version ==
+An English version can be found [http://192.168.72.172:10004 here].
+
+= Komponenten =
+The '''ACAS System''' ist eine Kombination von verschiedenen Mikroservices.
+
+== Kastor Engine ==
+[[Kastor Engine|Lorem ipsum]] dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+== Database ==
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+== Syntax Highlighting ==
+=== C# ===
+<syntaxhighlight lang="csharp">
+using System;
+
+class Program 
+{
+    static void Main(string[] args) 
+    {
+        Console.WriteLine("Hallo Welt!");
+    }
+}
+</syntaxhighlight>
+
+=== Python ===
+<syntaxhighlight lang="python">
+def factorial(x):
+    if x <= 1:
+        return 1
+
+    return x * factorial(x - 1)
+</syntaxhighlight>
+
+=== JavaScript ===
+<syntaxhighlight lang="javascript">
+if (bedingung) {
+    anweisungen;
+} else {
+    anweisungen;
+}
+</syntaxhighlight>
+
+=== TypeScript ===
+<syntaxhighlight lang="typescript">
+function add(left: number, right: number): number {
+	return left + right;
+}
+</syntaxhighlight>
+
+=== Java ===
+<syntaxhighlight lang="java">
+public final class Singleton {
+
+    private static final Singleton INSTANCE = new Singleton();
+
+    private Singleton() {}
+
+    public static Singleton getInstance() {
+        return INSTANCE;
+    }
+}
+</syntaxhighlight>
+
+=== Highlighting ===
+<syntaxhighlight lang="csharp" line highlight="6,8-9">
+using System;
+using System.Windows.Forms;
+
+class Program 
+{
+    public static void Main() 
+    {
+        MessageBox.Show("Text", 
+                        "Titel", 
+                        MessageBoxButtons.OK, 
+                        MessageBoxIcon.Hand);
+    }
+}
+</syntaxhighlight>
